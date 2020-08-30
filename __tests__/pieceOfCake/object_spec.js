@@ -83,7 +83,6 @@ describe('for object', () => {
     // <--start
     // Please write down the correct value. You should write the final result directly.
     const expected = '{\"name\":\"Bob\",\"yearOfBirth\":2019}';
-    console.log(json);
     // --end->
 
     expect(json).toEqual(expected);
